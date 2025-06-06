@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/GitHubTestLogin/learning_terraform.git'
+                git url: 'https://github.com/GitHubTestLogin/learning_terraform.git', branch: 'main'
             }
         }
 
