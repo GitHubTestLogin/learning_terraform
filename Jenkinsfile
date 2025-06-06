@@ -33,8 +33,8 @@ pipeline {
             steps {
                 input message: "Apply Terraform changes?"
                 withCredentials([usernamePassword(credentialsId: 'aws-creds', usernameVariable: 'AWS_ACCESS_KEY_ID', passwordVariable: 'AWS_SECRET_ACCESS_KEY')]) {
-                     bat 'terraform apply'
-                 //   bat 'terraform apply -auto-approve'
+                   //  bat 'terraform apply'
+                   bat 'terraform apply -auto-approve'
                 }
             }
         }
