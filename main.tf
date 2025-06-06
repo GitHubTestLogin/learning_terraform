@@ -1,4 +1,4 @@
-data "aws_ami" "web_ami" {
+/*data "aws_ami" "web_ami" {
   most_recent = true
 
   filter {
@@ -22,3 +22,12 @@ resource "aws_instance" "myweb" {
     Name = "HelloWorld"
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+}*/
+
+resource "aws_s3_bucket" "mybucket9230qp" {
+  bucket = "my-demo-bucket-2025-unique"
+}
+
