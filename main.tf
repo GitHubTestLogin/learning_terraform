@@ -28,6 +28,6 @@ provider "aws" {
 }*/
 
 resource "aws_s3_bucket" "mybucket9230qp" {
-  bucket = "my-demo-bucket-2025-unique"
+  bucket = "my-demo-bucswd34f025-ue"
 }
 
