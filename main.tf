@@ -27,7 +27,7 @@ provider "aws" {
   region = "us-east-1"
 }*/
 
-resource "aws_s3_bucket" "mybuckcs319230qp" {
-  bucket = "my-demo-bucswd34f025-ue"
+resource "aws_s3_bucket" "m0lM67_1zx25" {
+  bucket = "mlM67_0omhfv"
 }
 
